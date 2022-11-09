@@ -22,10 +22,7 @@
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
-              <li
-                class="nav-item"
-                :class="{ active: isCurrentRoute('/myself') }"
-              >
+              <li class="nav-item" :class="{ active: isCurrentRoute('/') }">
                 <nuxt-link to="/" class="nav-link"
                   >Home <span class="sr-only">(current)</span></nuxt-link
                 >
