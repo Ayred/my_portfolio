@@ -37,7 +37,7 @@
                 class="nav-item @@projects__active"
                 :class="{ active: isCurrentRoute('/projects') }"
               >
-                <nuxt-link to="/projects" class="nav-link">Project</nuxt-link>
+                <nuxt-link to="/projects" class="nav-link">Projects</nuxt-link>
               </li>
               <li
                 class="nav-item @@contact__active"

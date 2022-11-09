@@ -8,7 +8,7 @@
             <li><router-link to="/">Home</router-link></li>
             <li class="active">
               <span class="fa fa-arrow-right mx-2" aria-hidden="true"></span>
-              Project
+              Projects
             </li>
           </ul>
         </div>

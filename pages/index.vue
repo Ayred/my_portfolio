@@ -15,7 +15,7 @@
                 to="/projects"
                 class="btn btn-outline-primary btn-style mr-2"
               >
-                Portfolio
+                Projects
               </nuxt-link>
             </div>
           </div>
