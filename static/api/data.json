@@ -1,0 +1,189 @@
+{
+  "main": {
+    "name": "Ayred Antara Caicedo Torres",
+    "shortname": "Ayred",
+    "occupation": "Developer / Programmer / Engineer",
+    "description": "Eat, sleep, code, repeat.",
+    "yearofexperience": "4+",
+    "age": "38",
+    "designation": "Computer Systems Engineer",
+    "image": "/images/photo.png",
+    "fullimage": "/images/myphoto1.jpg",
+    "graduationImage": "/images/graduation.jpg",
+    "bio": "Hi there! I have been very passionate about programming for the last few years. I dream to be an expert software engineer so that I can build professional and useful software that has business value. I am looking for a software engineer position in a reputed software company that can help me to achieve my goal.",
+    "contactmessage": "Get in touch with me to to build software!",
+    "email": "ayredantaract@gmail.com",
+    "phone": "+88 01862420119",
+    "mapaddress": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19463.765260500586!2d-117.0202301228747!3d32.51811117529691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94850e1e595e7%3A0xfe45fc99a0e0219!2sTijuana%20Cultural%20Center!5e0!3m2!1spt-BR!2smx!4v1667872266727!5m2!1spt-BR!2smx",
+    "address": {
+      "street": "",
+      "city": "Tijuana",
+      "state": "Baja California",
+      "zip": ""
+    },
+    "quotes1": {
+      "sectiontitle": "My resume",
+      "title": "I Would Love to make part of your Ideas",
+      "description": "I love frontend technologies but I'm also a backend and data enthusiast. I'm always studying to keep myself up to date with the best technologies for web development. You can download my resume in order to learn more about my professional life. Contact me and we will discuss your projects!"
+    },
+    "quotes2": {
+      "sectiontitle": "",
+      "title": "Hire me for your Awesome project!",
+      "description": "I would love to be part of your team and help you develop your projects. I am very passionate and enthusiastic, I love to learn all the time. I like challenges and problem solving. I am very committed and a good teammate. I can also speak English, Spanish and Portuguese."
+    },
+    "technologies": {
+      "vue": "100",
+      "nuxt": "20",
+      "axios": "15",
+      "javascript": "100"
+    },
+    "resumedownload": "https://drive.google.com/file/d/17a9zg7kv-kNOXV_UUC0Q5KhH36wMXjmK/view?usp=sharing",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ayred/",
+        "className": "fa fa-linkedin"
+      },
+
+      {
+        "name": "github",
+        "url": "https://github.com/Ayred",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "UTEL University",
+        "degree": "Engineer's Degree, Computer Systems Engineering",
+        "graduated": "August 2019",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "work": [
+      {
+        "company": "iLab",
+        "title": "Software Developer",
+        "years": "Jun 2020 - Present",
+        "description": "Developing some userfriendly and best software."
+      }
+    ],
+    "skillssectiontitle": "Motivated by the Desire to achieve Success",
+    "skillssectiondescription": "I began in tech working with WordPress 4+ years ago. Also using HTML, CSS and JavaScript. Two years ago I started to evolve in my career using JavaScript frameworks as Vue.js. This portfolio is built on Vue and Nuxt. I also had the opportunity to be part of an application development team using React Native and Firebase. I am interested in continuing to develop my skills and participate in projects that help me grow more and more in my career.",
+    "skills": [
+      {
+        "name": "MySQL",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Vue",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Nuxt",
+        "level": "Intermediate"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermediate"
+      },
+      {
+        "name": "API integration",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Axios",
+        "level": "Intermediate"
+      },
+      {
+        "name": "HTML, CSS",
+        "level": "Intermediate"
+      },
+      {
+        "name": "React Native",
+        "level": "Basic"
+      },
+      {
+        "name": "Php",
+        "level": "Basic"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "no": "01",
+        "title": "Computer system for microbiology",
+        "description": "My biggest project until now. I have had the opportunity of building a Microbiology Laboratory System. I built this project from software requirements analysis to implementation. I used MySQL, Vue.js, Nuxt.js and Vuetify technologies. The app is solving old traceability problems they had in the microbiology area for the ISO standards requirements in there records.",
+        "url": "https://docs.google.com/presentation/d/1WvkA1JkRcbfs5dv8uc_lV1d8ewLhZyaC/edit?usp=sharing&ouid=103664415731488555926&rtpof=true&sd=true"
+      },
+      {
+        "no": "02",
+        "title": "iLab",
+        "description": "iLab is a Laboratory Information System (LIS). This is a huge platform, a system that processes, stores and manages data from all stages of medical processes and biochemical tests. In this project I have been working as part of the frontend development team, performing responsiveness and styling tasks as well as implementing new features. I also fix bugs and do code maintenance here. I use Vue 3 in this project.",
+        "url": "http://ilab.code-ware.com/login"
+      },
+      {
+        "no": "03",
+        "title": "Arkusfit",
+        "description": "This project was developed during a bootcamp where I was part of the mobile dev team. The application tracks records of exercise and food. In this project I had the opportunity to work with React Native, Firebase and Flexblox Technologies. I had the pleasure of building the user profile, cards with a reminder to drink water that appeared or not depending on the time, and I also made an internal health news page with a carousel of images.",
+        "url": "https://docs.google.com/presentation/d/1hk7i3yuRp94ZrisplKkOC176WAmwYNKdJZaEJOOT974/edit?usp=sharing"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!.",
+        "clientname": "John wilson",
+        "clientaddress": "Seattle, Washington"
+      },
+      {
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!.",
+        "clientname": "David haris",
+        "clientaddress": "London, England"
+      }
+    ]
+  },
+  "services": {
+    "services": [
+      {
+        "no": "01",
+        "title": "Web Development",
+        "description": "I can help you to build apps and interactive websites. I love working with creative people. Also, I can be proactive when it is required. I have excellent communication skills to understand clearly the goals of the business."
+      },
+      {
+        "no": "02",
+        "title": "Software Development",
+        "description": "I can be a good team player participating in the creation of complex applications and programs. I can help you to create, conceptualize, program, document, test, and upgrade software and their components."
+      },
+      {
+        "no": "03",
+        "title": "API Integration",
+        "description": "I can help you with the connection between two or more applications, via their APIs, for letting those systems exchange data. I have some experience usin axios and integrating features that keep data in sync."
+      }
+    ]
+  },
+  "awwards": {
+    "awwards": [
+      {
+        "title": "Website of the day",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis labore quisquam suscipit qui veritatis. voluptas quia officiis fugit soluta sunt"
+      },
+      {
+        "title": "Awards Site Of The Day",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis labore quisquam suscipit qui veritatis. voluptas quia officiis fugit soluta sunt"
+      },
+      {
+        "title": "Honorable mention award",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis labore quisquam suscipit qui veritatis. voluptas quia officiis fugit soluta sunt"
+      },
+      {
+        "title": "Designer of the Company",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis labore quisquam suscipit qui veritatis. voluptas quia officiis fugit soluta sunt"
+      }
+    ]
+  }
+}
