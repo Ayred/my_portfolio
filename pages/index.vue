@@ -87,7 +87,7 @@
             <div
               class="col-md-4 col-sm-12 col-xs-12"
               v-for="service in data.services.services"
-              v-bind:key="service"
+              v-bind:key="service.no"
             >
               <div class="item">
                 <div class="card">

@@ -68,7 +68,10 @@
                   >Download CV</a
                 >
                 <ul class="social m-0 p-0">
-                  <li v-for="social in data.main.social" v-bind:key="social">
+                  <li
+                    v-for="social in data.main.social"
+                    v-bind:key="social.name"
+                  >
                     <a target="_blank" :href="social.url"
                       ><span :class="social.className"></span
                     ></a>
@@ -90,7 +93,7 @@
             <div
               class="col-md-4 col-sm-12 col-xs-12"
               v-for="service in data.services.services"
-              v-bind:key="service"
+              v-bind:key="service.no"
             >
               <div class="item">
                 <div class="card">
@@ -132,7 +135,7 @@
               <div
                 class="progress-info"
                 v-for="skill in data.resume.skills"
-                v-bind:key="skill"
+                v-bind:key="skill.name"
               >
                 <h6 class="progress-tittle">
                   <b>{{ skill.name }} :</b>
@@ -175,7 +178,7 @@
             <div
               class="col-lg-4 item align-center m-auto"
               v-for="education in data.resume.education"
-              v-bind:key="education"
+              v-bind:key="education.description"
             >
               <h3 class="title-big text-center mb-sm-5 mb-4">My Education</h3>
               <div class="card">
@@ -219,7 +222,7 @@
             <div
               class="col-lg-6 item"
               v-for="work in data.resume.work"
-              v-bind:key="work"
+              v-bind:key="work.company"
             >
               <div class="card">
                 <div class="box-wrap">

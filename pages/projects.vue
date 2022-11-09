@@ -27,7 +27,7 @@
             <div
               class="col-md-4 col-sm-12 col-xs-12"
               v-for="project in data.portfolio.projects"
-              v-bind:key="project"
+              v-bind:key="project.no"
             >
               <div class="item">
                 <div class="card">

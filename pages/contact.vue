@@ -49,7 +49,7 @@
               <div
                 class="cont-top m-5"
                 v-for="social in data.main.social"
-                v-bind:key="social"
+                v-bind:key="social.name"
               >
                 <div class="cont-left text-center">
                   <span :class="social.className"></span>

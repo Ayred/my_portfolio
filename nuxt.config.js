@@ -4,7 +4,7 @@ export default {
 
   // Global App headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Asadzaman : Programmer/Developer/Engineer',
+    title: 'Ayred : Programmer/Developer/Engineer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -21,20 +21,24 @@ export default {
         href: 'http://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap'
       },
       { rel: 'stylesheet', href: '/resources/assets/css/style-starter.css' }
+      // {
+      //   rel: 'stylesheet',
+      //   href: 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css'
+      // }
     ],
     script: [
-      { src: '/resources/assets/js/customjs1.js', body: true },
-      { src: '/resources/assets/js/theme-change.js', body: true },
       { src: '/resources/assets/js/jquery-3.3.1.min.js', body: true },
-      { src: '/resources/assets/js/customjs2.js', body: true },
       { src: '/resources/assets/js/owl.carousel.js', body: true },
-      { src: '/resources/assets/js/customjs3.js', body: true },
       { src: '/resources/assets/js/jquery.magnific-popup.min.js', body: true },
-      { src: '/resources/assets/js/customjs4.js', body: true },
       { src: '/resources/assets/js/jquery.waypoints.min.js', body: true },
       { src: '/resources/assets/js/jquery.countup.js', body: true },
-      { src: '/resources/assets/js/customjs5.js', body: true },
-      { src: '/resources/assets/js/bootstrap.min.js', body: true }
+      { src: '/resources/assets/js/bootstrap.min.js', body: true },
+      { src: '/resources/assets/js/theme-change.js', body: true },
+      { src: '/resources/assets/js/customjs1.js', body: true },
+      { src: '/resources/assets/js/customjs3.js', body: true },
+      { src: '/resources/assets/js/customjs4.js', body: true },
+      { src: '/resources/assets/js/customjs5.js', body: true }
+      //   { src: '/resources/assets/js/customjs2.js', body: true }
     ]
   },
   server: {
