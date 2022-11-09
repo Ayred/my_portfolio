@@ -2,6 +2,19 @@
   <div>
     <header id="site-header" class="fixed-top">
       <div class="container">
+        <!-- <nav class="navbar navbar-expand-lg">
+          <nuxt-link to="/" class="navbar-brand">
+            <span class="fa fa-laptop"></span> {{ data.main.shortname }}
+          </nuxt-link>
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="/myself">About</a>
+            <a class="nav-item nav-link" href="/projects">Projects</a>
+            <a class="nav-item nav-link" href="/contact">Contact</a>
+          </div>
+        </nav> -->
         <nav class="navbar navbar-expand-lg stroke">
           <nuxt-link to="/" class="navbar-brand">
             <span class="fa fa-laptop"></span> {{ data.main.shortname }}
@@ -37,7 +50,7 @@
                 class="nav-item @@projects__active"
                 :class="{ active: isCurrentRoute('/projects') }"
               >
-                <nuxt-link to="/projects" class="nav-link">Project</nuxt-link>
+                <nuxt-link to="/projects" class="nav-link">Projects</nuxt-link>
               </li>
               <li
                 class="nav-item @@contact__active"
@@ -83,7 +96,7 @@
               <ul class="social m-0 p-0">
                 <li
                   v-for="socaildata in data.main.social"
-                  v-bind:key="socaildata"
+                  v-bind:key="socaildata.name"
                 >
                   <a target="_blank" :href="socaildata.url"
                     ><span :class="socaildata.className"></span

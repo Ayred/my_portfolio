@@ -5,7 +5,7 @@
         <div class="container py-2">
           <h2 class="title">Contact Me</h2>
           <ul class="breadcrumbs-custom-path mt-2">
-            <li><a href="#url">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li class="active">
               <span class="fa fa-arrow-right mx-2" aria-hidden="true"></span>
               Contact
@@ -49,7 +49,7 @@
               <div
                 class="cont-top m-5"
                 v-for="social in data.main.social"
-                v-bind:key="social"
+                v-bind:key="social.name"
               >
                 <div class="cont-left text-center">
                   <span :class="social.className"></span>

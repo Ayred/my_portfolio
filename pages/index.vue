@@ -15,7 +15,7 @@
                 to="/projects"
                 class="btn btn-outline-primary btn-style mr-2"
               >
-                Portfolio
+                Projects
               </nuxt-link>
             </div>
           </div>
@@ -87,7 +87,7 @@
             <div
               class="col-md-4 col-sm-12 col-xs-12"
               v-for="service in data.services.services"
-              v-bind:key="service"
+              v-bind:key="service.no"
             >
               <div class="item">
                 <div class="card">
