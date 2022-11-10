@@ -47,7 +47,7 @@
             </div>
             <div class="map-content-9">
               <div
-                class="cont-top m-5"
+                class="cont-top m-lg-5 my-3"
                 v-for="social in data.main.social"
                 v-bind:key="social.name"
               >
