@@ -8,7 +8,7 @@ This allows you to customize your own personal portfolio that can be used for ap
 You can simply run the project by following process
 
 ```shell
-$ git clone https://github.com/Ayred/my_portfolio
+$ git clone git@github.com:Ayred/my_portfolio.git
 ```
 
 ```shell
