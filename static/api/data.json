@@ -70,6 +70,38 @@
         "description": "Developing some userfriendly and best software."
       }
     ],
+    "certifications": [
+      {
+        "organization": "SENA",
+        "certificatename": "Computer Architecture",
+        "url": "https://drive.google.com/file/d/1Cbk-_kOmJEsKRFMJRbCiE2HNM2cds3uR/view"
+      },
+      {
+        "organization": "Curso em Vídeo",
+        "certificatename": "JavaScript",
+        "url": "https://drive.google.com/file/d/1C8-trC6C-S8bIu0L-lfmzRKuXgh0Zzvo/view"
+      },
+      {
+        "organization": "Agoralíngua",
+        "certificatename": "Portuguese C2",
+        "url": "https://drive.google.com/file/d/1BgZPnAQ7C3T5zIMNzcUQzJCHeuAtG1VV/view"
+      },
+      {
+        "organization": "Microsoft",
+        "certificatename": "DP-900: Azure Data Fundamentals",
+        "url": "https://www.credly.com/badges/b8286427-49e2-4bb3-a0da-2f5bc4ae7705/linked_in_profile"
+      },
+      {
+        "organization": "Microsoft",
+        "certificatename": "AZ-900: Azure Fundamentals",
+        "url": "https://www.credly.com/badges/10c106b0-5f72-40e7-871a-cb3fbc58adfb/linked_in_profile"
+      },
+      {
+        "organization": "Microsoft",
+        "certificatename": "PL-300: Power BI Data Analyst Associate",
+        "url": "https://www.credly.com/badges/ee6360ee-f283-4104-9fb9-261f56b07216/linked_in_profile"
+      }
+    ],
     "skillssectiontitle": "Motivated by the Desire to achieve Success",
     "skillssectiondescription": "I began in tech working with WordPress 4+ years ago. Also using HTML, CSS and JavaScript. Two years ago I started to evolve in my career using JavaScript frameworks as Vue.js. This portfolio is built on Vue and Nuxt. I also had the opportunity to be part of an application development team using React Native and Firebase. I am interested in continuing to develop my skills and participate in projects that help me grow more and more in my career.",
     "skills": [
@@ -162,7 +194,7 @@
       {
         "no": "03",
         "title": "API Integration",
-        "description": "I can help you with the connection between two or more applications, via their APIs, for letting those systems exchange data. I have some experience usin axios and integrating features that keep data in sync."
+        "description": "I can help you with the connection between two or more applications, via their APIs, for letting those systems exchange data. I have some experience using axios and integrating features that keep data in sync."
       }
     ]
   },
