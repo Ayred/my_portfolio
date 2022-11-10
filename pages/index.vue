@@ -3,7 +3,7 @@
     <section id="home" class="w3l-banner py-5">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 col-sm-12 mt-lg-0 mt-4">
+          <div class="col-lg-6 col-sm-12 mt-lg-0 mt-4 mt-sm-5">
             <span class="title-small">Hello</span>
             <h1 class="mb-2 title"><span>I'm</span> {{ data.main.name }}</h1>
             <p>{{ data.main.occupation }}</p>
