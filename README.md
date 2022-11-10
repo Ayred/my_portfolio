@@ -8,11 +8,11 @@ This allows you to customize your own personal portfolio that can be used for ap
 You can simply run the project by following process
 
 ```shell
-$ git clone https://github.com/Ayred
+$ git clone git@github.com:Ayred/my_portfolio.git
 ```
 
 ```shell
-$ cd protfolio-for-developer-using-nuxt-js
+$ cd my_portfolio
 ```
 
 ```shell
@@ -26,17 +26,3 @@ $ npm run dev
 After that you can edit the data.json file located in static/api/data.json
 
 ## Deploy Your Own
-
-Deploy your own Nuxt.js project.
-
-```shell
-upload the project in your github account
-```
-
-```shell
-create new project linked & your gitgub repository
-```
-
-```shell
-you are ready to go
-```
