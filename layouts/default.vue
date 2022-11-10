@@ -2,25 +2,13 @@
   <div>
     <header id="site-header" class="fixed-top">
       <div class="container">
-        <!-- <nav class="navbar navbar-expand-lg">
-          <nuxt-link to="/" class="navbar-brand">
-            <span class="fa fa-laptop"></span> {{ data.main.shortname }}
-          </nuxt-link>
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="/myself">About</a>
-            <a class="nav-item nav-link" href="/projects">Projects</a>
-            <a class="nav-item nav-link" href="/contact">Contact</a>
-          </div>
-        </nav> -->
         <nav class="navbar navbar-expand-lg stroke">
           <nuxt-link to="/" class="navbar-brand">
             <span class="fa fa-laptop"></span> {{ data.main.shortname }}
           </nuxt-link>
 
           <button
+            ref="navbutton"
             class="navbar-toggler collapsed bg-gradient"
             type="button"
             data-toggle="collapse"
@@ -41,19 +29,19 @@
                 >
               </li>
               <li
-                class="nav-item @@about__active"
+                class="nav-item"
                 :class="{ active: isCurrentRoute('/myself') }"
               >
                 <nuxt-link to="/myself" class="nav-link">About</nuxt-link>
               </li>
               <li
-                class="nav-item @@projects__active"
+                class="nav-item"
                 :class="{ active: isCurrentRoute('/projects') }"
               >
                 <nuxt-link to="/projects" class="nav-link">Projects</nuxt-link>
               </li>
               <li
-                class="nav-item @@contact__active"
+                class="nav-item"
                 :class="{ active: isCurrentRoute('/contact') }"
               >
                 <nuxt-link to="/contact" class="nav-link">Contact</nuxt-link>
@@ -122,6 +110,12 @@ export default {
     return {
       data: data
     };
+  },
+  watch: {
+    '$route.path'(val) {
+      if (!this.$refs.navbutton.classList.contains('collapsed'))
+        this.$refs.navbutton.click();
+    }
   },
   methods: {
     isCurrentRoute(route) {
