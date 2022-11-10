@@ -176,7 +176,37 @@
         </div>
       </div>
     </section>
-
+    <section class="w3l-services">
+      <div class="w3l-achievements py-5" id="services">
+        <div class="container py-lg-5">
+          <h5 class="title-small text-center">Specialization</h5>
+          <h3 class="title-big text-center mb-sm-5 mb-4">
+            Courses and Certifications
+          </h3>
+          <div class="row">
+            <div
+              class="col-lg-4 item"
+              v-for="certificate in data.resume.certifications"
+              v-bind:key="certificate.name"
+            >
+              <div class="card">
+                <a :href="certificate.url" target="_blank">
+                  <div class="box-wrap">
+                    <div class="icon">
+                      <span class="fa fa-shield"></span>
+                    </div>
+                    <h4>
+                      <a>{{ certificate.certificatename }}</a>
+                    </h4>
+                    <p>Organization: {{ certificate.organization }}<br /></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="w3l-services">
       <div class="w3l-achievements py-5" id="services">
         <div class="container py-lg-5">
