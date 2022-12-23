@@ -73,6 +73,11 @@
     "certifications": [
       {
         "organization": "SENA",
+        "certificatename": "Python Fundamentals",
+        "url": "https://drive.google.com/file/d/126f2oiVhigKK2-5UX2Zf7w2w0yr7wUIi/view"
+      },
+      {
+        "organization": "SENA",
         "certificatename": "Computer Architecture",
         "url": "https://drive.google.com/file/d/1Cbk-_kOmJEsKRFMJRbCiE2HNM2cds3uR/view"
       },

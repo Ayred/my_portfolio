@@ -185,7 +185,7 @@
           </h3>
           <div class="row">
             <div
-              class="col-lg-4 item"
+              class="col-lg-3 item"
               v-for="certificate in data.resume.certifications"
               v-bind:key="certificate.name"
             >
@@ -193,12 +193,14 @@
                 <a :href="certificate.url" target="_blank">
                   <div class="box-wrap">
                     <div class="icon">
-                      <span class="fa fa-shield"></span>
+                      <span class="fa fa-certificate"></span>
                     </div>
-                    <h4>
+                    <h4 class="cardHeight">
                       <a>{{ certificate.certificatename }}</a>
                     </h4>
-                    <p>Organization: {{ certificate.organization }}<br /></p>
+                    <p class="cardHeightD">
+                      Organization: {{ certificate.organization }}<br />
+                    </p>
                   </div>
                 </a>
               </div>
@@ -266,3 +268,12 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.cardHeight {
+  height: 9.5rem;
+}
+.cardHeightD {
+  height: 2rem;
+}
+</style>
