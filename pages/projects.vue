@@ -20,8 +20,8 @@
         <div class="container py-lg-5">
           <h5 class="title-small text-center">Projects list</h5>
           <h3 class="title-big text-center mb-sm-5 mb-4">
-            I have done some projects as a single developer and also as a team
-            player.
+            I have done some projects as an independent developer and also as a
+            team player.
           </h3>
           <div class="row">
             <div
