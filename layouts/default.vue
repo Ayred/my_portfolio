@@ -23,28 +23,38 @@
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item" :class="{ active: isCurrentRoute('/') }">
-                <nuxt-link to="/" class="nav-link"
-                  >Home <span class="sr-only">(current)</span></nuxt-link
+              <li
+                class="nav-item"
+                :class="{ active: isCurrentRoute(localePath('/')) }"
+              >
+                <nuxt-link :to="localePath('/')" class="nav-link"
+                  >{{ $t('welcome') }} Home
+                  <span class="sr-only">(current)</span></nuxt-link
                 >
               </li>
               <li
                 class="nav-item"
-                :class="{ active: isCurrentRoute('/myself') }"
+                :class="{ active: isCurrentRoute(localePath('/myself')) }"
               >
-                <nuxt-link to="/myself" class="nav-link">About</nuxt-link>
+                <nuxt-link :to="localePath('/myself')" class="nav-link"
+                  >About</nuxt-link
+                >
               </li>
               <li
                 class="nav-item"
-                :class="{ active: isCurrentRoute('/projects') }"
+                :class="{ active: isCurrentRoute(localePath('/projects')) }"
               >
-                <nuxt-link to="/projects" class="nav-link">Projects</nuxt-link>
+                <nuxt-link :to="localePath('/projects')" class="nav-link"
+                  >Projects</nuxt-link
+                >
               </li>
               <li
                 class="nav-item"
-                :class="{ active: isCurrentRoute('/contact') }"
+                :class="{ active: isCurrentRoute(localePath('/contact')) }"
               >
-                <nuxt-link to="/contact" class="nav-link">Contact</nuxt-link>
+                <nuxt-link :to="localePath('/contact')" class="nav-link"
+                  >Contact</nuxt-link
+                >
               </li>
             </ul>
           </div>
@@ -108,7 +118,7 @@ export default {
   name: 'index',
   data() {
     return {
-      data: data
+      data: data[this.$i18n.localeProperties.code]
     };
   },
   watch: {

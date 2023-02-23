@@ -8,11 +8,14 @@
             <h1 class="mb-2 title"><span>I'm</span> {{ data.main.name }}</h1>
             <p>{{ data.main.occupation }}</p>
             <div class="mt-sm-5 mt-4">
-              <nuxt-link to="/contact" class="btn btn-primary btn-style mr-2">
-                Hire Me
+              <nuxt-link
+                :to="localePath('/contact')"
+                class="btn btn-primary btn-style mr-2"
+              >
+                {{ $t('hireMe') }}
               </nuxt-link>
               <nuxt-link
-                to="/projects"
+                :to="localePath('/projects')"
                 class="btn btn-outline-primary btn-style mr-2"
               >
                 Projects
@@ -206,10 +209,14 @@
       <div class="container py-3">
         <h6 class="title-small">Get in touch</h6>
         <h3 class="title-big mb-md-5 mb-4">Let's start a Project!</h3>
-        <router-link to="/myself" class="btn btn-style btn-primary mr-2"
+        <router-link
+          :to="localePath('/myself')"
+          class="btn btn-style btn-primary mr-2"
           >More about me
         </router-link>
-        <router-link to="/contact" class="btn btn-style btn-outline-primary"
+        <router-link
+          :to="localePath('/contact')"
+          class="btn btn-style btn-outline-primary"
           >Get in touch</router-link
         >
       </div>
@@ -223,7 +230,7 @@ export default {
   name: 'index',
   data() {
     return {
-      data: data
+      data: data[this.$i18n.localeProperties.code]
     };
   },
   head() {

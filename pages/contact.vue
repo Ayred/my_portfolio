@@ -88,7 +88,7 @@ export default {
   name: 'index',
   data() {
     return {
-      data: data
+      data: data[this.$i18n.localeProperties.code]
     };
   },
   head() {
