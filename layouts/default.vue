@@ -59,6 +59,18 @@
             </ul>
           </div>
 
+          <div class="">
+            <nuxt-link :to="switchLocalePath('en')"
+              ><country-flag country="us"
+            /></nuxt-link>
+            <nuxt-link :to="switchLocalePath('es')"
+              ><country-flag country="mx"
+            /></nuxt-link>
+            <nuxt-link :to="switchLocalePath('pt')"
+              ><country-flag country="br"
+            /></nuxt-link>
+          </div>
+
           <div class="mobile-position">
             <nav class="navigation">
               <div class="theme-switch-wrapper">
@@ -114,7 +126,11 @@
 </template>
 <script>
 import data from '~/static/api/data.json';
+import CountryFlag from 'vue-country-flag';
 export default {
+  components: {
+    CountryFlag
+  },
   name: 'index',
   data() {
     return {
