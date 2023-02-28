@@ -3,12 +3,14 @@
     <section class="w3l-about-breadcrumb text-center">
       <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
         <div class="container py-2">
-          <h2 class="title">About Me</h2>
+          <h2 class="title">{{ $t('aboutMe') }}</h2>
           <ul class="breadcrumbs-custom-path mt-2">
-            <li><router-link to="/">Home</router-link></li>
+            <li>
+              <router-link to="/">{{ $t('home') }}</router-link>
+            </li>
             <li class="active">
               <span class="fa fa-arrow-right mx-2" aria-hidden="true"></span>
-              About Me
+              {{ $t('aboutMe') }}
             </li>
           </ul>
         </div>
@@ -30,26 +32,27 @@
             </div>
             <div class="col-lg-8 mt-lg-0 mt-5">
               <h5 class="title-small mb-2">
-                Hello, I am a {{ data.main.designation }}
+                {{ $t('helloIam') }} {{ data.main.designation }}
               </h5>
               <h3 class="title-big">
-                Having {{ data.main.yearofexperience }} Years of Experience
+                {{ $t('having') }} {{ data.main.yearofexperience }}
+                {{ $t('yearsOfExperience') }}
               </h3>
               <p class="mt-4">{{ data.main.bio }}</p>
               <div class="my-info mt-4">
                 <div class="single-info">
-                  <span>Name:</span>
+                  <span>{{ $t('name') }}:</span>
                   <p>{{ data.main.name }}</p>
                 </div>
 
                 <div class="single-info">
-                  <span>Located:</span>
+                  <span>{{ $t('located') }}</span>
                   <p>
                     {{ data.main.address.city }}, {{ data.main.address.state }}
                   </p>
                 </div>
                 <div class="single-info">
-                  <span>Email:</span>
+                  <span>{{ $t('email') }}:</span>
                   <p>
                     <a
                       target="_blank"
@@ -65,7 +68,7 @@
                   :href="data.main.resumedownload"
                   target="_blank"
                   class="btn btn-style btn-primary"
-                  >Download CV</a
+                  >{{ $t('downloadCV') }}</a
                 >
                 <ul class="social m-0 p-0">
                   <li
@@ -85,7 +88,7 @@
     </section>
 
     <section class="w3l-content-6 py-5">
-      <h5 class="title-small text-center">Technologies</h5>
+      <h5 class="title-small text-center">{{ $t('technologies') }}</h5>
       <div class="content-6-mian py-lg-5 py-md-4">
         <div class="container">
           <div class="content-info-in row">
@@ -120,7 +123,7 @@
       </div>
       <div class="img-one content-mid">
         <center>
-          <h3 class="title-big">Email me right now</h3>
+          <h3 class="title-big">{{ $t('emailMeRightNow') }}</h3>
           <br />
           <a
             target="_blank"
@@ -146,7 +149,9 @@
               v-for="education in data.resume.education"
               v-bind:key="education.description"
             >
-              <h3 class="title-big text-center mb-sm-5 mb-4">My Education</h3>
+              <h3 class="title-big text-center mb-sm-5 mb-4">
+                {{ $t('myEducation') }}
+              </h3>
               <div class="card">
                 <div class="box-wrap">
                   <div class="icon">
@@ -156,9 +161,9 @@
                     <a href="">{{ education.degree }}</a>
                   </h4>
                   <p>
-                    School : {{ education.school }}<br />
-                    Graduated : {{ education.graduated }}<br />
-                    Description : {{ education.description }}<br />
+                    {{ $t('school') }} : {{ education.school }}<br />
+                    {{ $t('graduated') }} : {{ education.graduated }}<br />
+                    {{ $t('description') }} : {{ education.description }}<br />
                   </p>
                 </div>
               </div>
@@ -179,9 +184,9 @@
     <section class="w3l-services">
       <div class="w3l-achievements py-5" id="services">
         <div class="container py-lg-5">
-          <h5 class="title-small text-center">Specialization</h5>
+          <h5 class="title-small text-center">{{ $t('specialization') }}</h5>
           <h3 class="title-big text-center mb-sm-5 mb-4">
-            Courses and Certifications
+            {{ $t('cousesAndCertifications') }}
           </h3>
           <div class="row">
             <div
@@ -199,7 +204,8 @@
                       <a>{{ certificate.certificatename }}</a>
                     </h4>
                     <p class="cardHeightD">
-                      Organization: {{ certificate.organization }}<br />
+                      {{ $t('cousesAndCertifications') }}:
+                      {{ certificate.organization }}<br />
                     </p>
                   </div>
                 </a>
@@ -212,9 +218,9 @@
     <section class="w3l-services">
       <div class="w3l-achievements py-5" id="services">
         <div class="container py-lg-5">
-          <h5 class="title-small text-center">Work</h5>
+          <h5 class="title-small text-center">{{ $t('work') }}</h5>
           <h3 class="title-big text-center mb-sm-5 mb-4">
-            My Current Work Experience
+            {{ $t('myCurrentWorkExperience') }}
           </h3>
           <div class="row">
             <div
@@ -231,9 +237,9 @@
                     <a href="">{{ work.title }}</a>
                   </h4>
                   <p>
-                    Company : {{ work.company }}<br />
-                    Year : {{ work.years }}<br />
-                    Description : {{ work.description }}<br />
+                    {{ $t('company') }} : {{ work.company }}<br />
+                    {{ $t('year') }} : {{ work.years }}<br />
+                    {{ $t('description') }}: {{ work.description }}<br />
                   </p>
                 </div>
               </div>

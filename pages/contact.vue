@@ -3,12 +3,14 @@
     <section class="w3l-about-breadcrumb text-center">
       <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
         <div class="container py-2">
-          <h2 class="title">Contact Me</h2>
+          <h2 class="title">{{ $t('contactMe') }}</h2>
           <ul class="breadcrumbs-custom-path mt-2">
-            <li><a href="/">Home</a></li>
+            <li>
+              <a href="/">{{ $t('home') }}</a>
+            </li>
             <li class="active">
               <span class="fa fa-arrow-right mx-2" aria-hidden="true"></span>
-              Contact
+              {{ $t('contact') }}
             </li>
           </ul>
         </div>
@@ -25,7 +27,7 @@
                   <span class="fa fa-envelope-o text-primary"></span>
                 </div>
                 <div class="cont-right">
-                  <h6>Email Me</h6>
+                  <h6>{{ $t('emailMe') }}</h6>
                   <p>
                     <a :href="'mailto:' + data.main.email" class="mail">{{
                       data.main.email
@@ -38,7 +40,7 @@
                   <span class="fa fa-map-marker text-primary"></span>
                 </div>
                 <div class="cont-right">
-                  <h6>Location</h6>
+                  <h6>{{ $t('location') }}</h6>
                   <p>
                     {{ data.main.address.city }}, {{ data.main.address.state }}.
                   </p>
