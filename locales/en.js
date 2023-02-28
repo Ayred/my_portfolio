@@ -39,5 +39,8 @@ export default {
   company: 'Company',
   year: 'Year',
   myProjects: 'My Projects',
-  projectsList: 'Lista de proyectos'
+  projectsList: 'Projects List',
+  teamOrSolo:
+    'I have done some projects as an independent developer and also as a team player.',
+  copyright: '© Copyright 2023. Developed by'
 };

@@ -20,10 +20,9 @@
     <section class="w3l-services">
       <div class="blog py-5" id="services">
         <div class="container py-lg-5">
-          <h5 class="title-small text-center">Projects list</h5>
+          <h5 class="title-small text-center">{{ $t('projectsList') }}</h5>
           <h3 class="title-big text-center mb-sm-5 mb-4">
-            I have done some projects as an independent developer and also as a
-            team player.
+            {{ $t('teamOrSolo') }}
           </h3>
           <div class="row">
             <div
@@ -62,7 +61,7 @@
       </div>
       <div class="img-one content-mid">
         <center>
-          <h3 class="title-big">Email me right now</h3>
+          <h3 class="title-big">{{ $t('emailMeRightNow') }}</h3>
           <br />
           <a
             target="_blank"

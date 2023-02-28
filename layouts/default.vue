@@ -28,7 +28,7 @@
                 :class="{ active: isCurrentRoute(localePath('/')) }"
               >
                 <nuxt-link :to="localePath('/')" class="nav-link"
-                  >{{ $t('welcome') }} Home
+                  >{{ $t('welcome') }}
                   <span class="sr-only">(current)</span></nuxt-link
                 >
               </li>
@@ -36,25 +36,25 @@
                 class="nav-item"
                 :class="{ active: isCurrentRoute(localePath('/myself')) }"
               >
-                <nuxt-link :to="localePath('/myself')" class="nav-link"
-                  >About</nuxt-link
-                >
+                <nuxt-link :to="localePath('/myself')" class="nav-link">{{
+                  $t('about')
+                }}</nuxt-link>
               </li>
               <li
                 class="nav-item"
                 :class="{ active: isCurrentRoute(localePath('/projects')) }"
               >
-                <nuxt-link :to="localePath('/projects')" class="nav-link"
-                  >Projects</nuxt-link
-                >
+                <nuxt-link :to="localePath('/projects')" class="nav-link">{{
+                  $t('projects')
+                }}</nuxt-link>
               </li>
               <li
                 class="nav-item"
                 :class="{ active: isCurrentRoute(localePath('/contact')) }"
               >
-                <nuxt-link :to="localePath('/contact')" class="nav-link"
-                  >Contact</nuxt-link
-                >
+                <nuxt-link :to="localePath('/contact')" class="nav-link">{{
+                  $t('contact')
+                }}</nuxt-link>
               </li>
             </ul>
           </div>
@@ -96,7 +96,7 @@
           <div class="row">
             <div class="col-lg-8 footer-left">
               <p class="m-0">
-                {{ data.main.shortname }} © Copyright 2022. Developed by
+                {{ data.main.shortname }}{{ $t(copyright) }}
                 <a href="http://tatatato.com/" target="_blank">TATATATO </a>
               </p>
             </div>
