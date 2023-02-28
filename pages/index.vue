@@ -4,9 +4,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 col-sm-12 mt-lg-0 mt-4 mt-sm-5">
-            <span class="title-small">{{ hello }}</span>
+            <span class="title-small">{{ $t('hello') }}</span>
             <h1 class="mb-2 title">
-              <span>{{ me }}</span> {{ data.main.name }}
+              <span>{{ $t('me') }}</span> {{ data.main.name }}
             </h1>
             <p>{{ data.main.occupation }}</p>
             <div class="mt-sm-5 mt-4">
@@ -47,9 +47,9 @@
               </div>
             </div>
             <div class="col-lg-8 mt-lg-0 mt-5">
-              <h5 class="title-small mb-2">{{ whoAmI }}</h5>
+              <h5 class="title-small mb-2">{{ $t('whoAmI') }}</h5>
               <h3 class="title-big">
-                {{ me }} <b>{{ data.main.name }}</b
+                {{ $t('me') }} <b>{{ data.main.name }}</b
                 >, a {{ data.main.occupation }}
               </h3>
               <p class="mt-4">{{ data.main.bio }}</p>
@@ -86,8 +86,10 @@
     <section class="w3l-services">
       <div class="blog py-1" id="services">
         <div class="container py-lg-5">
-          <h5 class="title-small text-center">{{ services }}</h5>
-          <h3 class="title-big text-center mb-sm-5 mb-4">{{ whatIDo }}</h3>
+          <h5 class="title-small text-center">{{ $t('services') }}</h5>
+          <h3 class="title-big text-center mb-sm-5 mb-4">
+            {{ $t('whatIDo') }}
+          </h3>
           <div class="row">
             <div
               class="col-md-4 col-sm-12 col-xs-12"
@@ -138,8 +140,8 @@
 
     <section class="w3l-grid-quote text-center py-5">
       <div class="container py-3">
-        <h6 class="title-small">{{ getInTouch }}</h6>
-        <h3 class="title-big mb-md-5 mb-4">{{ letsStart }}</h3>
+        <h6 class="title-small">{{ $t('getInTouch') }}</h6>
+        <h3 class="title-big mb-md-5 mb-4">{{ $t('letsStart') }}</h3>
         <router-link
           :to="localePath('/myself')"
           class="btn btn-style btn-primary mr-2"

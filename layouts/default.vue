@@ -96,7 +96,7 @@
           <div class="row">
             <div class="col-lg-8 footer-left">
               <p class="m-0">
-                {{ data.main.shortname }}{{ $t(copyright) }}
+                {{ data.main.shortname }}{{ $t('copyright') }}
                 <a href="http://tatatato.com/" target="_blank">TATATATO </a>
               </p>
             </div>
