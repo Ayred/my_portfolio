@@ -1,6 +1,6 @@
 export default {
   welcome: 'Bienvenido',
-  hireMe: 'Contrátame',
+  hireMe: 'Contacto',
   downloadCV: 'Bajar CV',
   downloadResume: 'Bajar curriculum',
   hello: 'Hola',
