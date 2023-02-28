@@ -37,7 +37,7 @@
                 :class="{ active: isCurrentRoute(localePath('/myself')) }"
               >
                 <nuxt-link :to="localePath('/myself')" class="nav-link">{{
-                  $t('about')
+                  $t('aboutMe')
                 }}</nuxt-link>
               </li>
               <li
