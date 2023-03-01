@@ -59,16 +59,16 @@
             </ul>
           </div>
 
-          <div class="">
+          <div class="col-sm-12 col-md-2 text-center">
             <nuxt-link :to="switchLocalePath('en')"
-              ><country-flag country="us"
-            /></nuxt-link>
+              ><country-flag country="us" />&nbsp;
+            </nuxt-link>
             <nuxt-link :to="switchLocalePath('es')"
-              ><country-flag country="mx"
-            /></nuxt-link>
+              ><country-flag country="mx" />&nbsp;
+            </nuxt-link>
             <nuxt-link :to="switchLocalePath('pt')"
-              ><country-flag country="br"
-            /></nuxt-link>
+              ><country-flag country="br" />&nbsp;
+            </nuxt-link>
           </div>
 
           <div class="mobile-position">
