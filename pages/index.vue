@@ -50,7 +50,7 @@
               <h5 class="title-small mb-2">{{ $t('whoAmI') }}</h5>
               <h3 class="title-big">
                 {{ $t('me') }} <b>{{ data.main.name }}</b
-                >, a {{ data.main.occupation }}
+                >, {{ $t('a') }} {{ data.main.occupation }}
               </h3>
               <p class="mt-4">{{ data.main.bio }}</p>
               <a

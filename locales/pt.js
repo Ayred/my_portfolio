@@ -18,6 +18,7 @@ export default {
   emailMe: 'Mande um email',
   location: 'Localização',
   aboutMe: 'Quem sou',
+  a: ' ',
   helloIam: 'Olá, eu sou',
   having: 'Tenho',
   yearsOfExperience: 'Anos de experiência',

@@ -7,6 +7,7 @@ export default {
   me: "I'm",
   projects: 'Projects',
   whoAmI: 'Who am I?',
+  a: 'a',
   services: 'Services',
   whatIDo: 'What I do for you',
   getInTouch: 'Get in touch',
