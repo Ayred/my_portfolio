@@ -4,18 +4,23 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 col-sm-12 mt-lg-0 mt-4 mt-sm-5">
-            <span class="title-small">Hello</span>
-            <h1 class="mb-2 title"><span>I'm</span> {{ data.main.name }}</h1>
+            <span class="title-small">{{ $t('hello') }}</span>
+            <h1 class="mb-2 title">
+              <span>{{ $t('me') }}</span> {{ data.main.name }}
+            </h1>
             <p>{{ data.main.occupation }}</p>
             <div class="mt-sm-5 mt-4">
-              <nuxt-link to="/contact" class="btn btn-primary btn-style mr-2">
-                Hire Me
+              <nuxt-link
+                :to="localePath('/contact')"
+                class="btn btn-primary btn-style mr-2"
+              >
+                {{ $t('hireMe') }}
               </nuxt-link>
               <nuxt-link
-                to="/projects"
+                :to="localePath('/projects')"
                 class="btn btn-outline-primary btn-style mr-2"
               >
-                Projects
+                {{ $t('projects') }}
               </nuxt-link>
             </div>
           </div>
@@ -42,17 +47,17 @@
               </div>
             </div>
             <div class="col-lg-8 mt-lg-0 mt-5">
-              <h5 class="title-small mb-2">Who am I?</h5>
+              <h5 class="title-small mb-2">{{ $t('whoAmI') }}</h5>
               <h3 class="title-big">
-                I'm <b>{{ data.main.name }}</b
-                >, a {{ data.main.occupation }}
+                {{ $t('me') }} <b>{{ data.main.name }}</b
+                >, {{ $t('a') }} {{ data.main.occupation }}
               </h3>
               <p class="mt-4">{{ data.main.bio }}</p>
               <a
                 :href="data.main.resumedownload"
                 target="_blank"
                 class="btn btn-style btn-primary mt-lg-5 mt-4"
-                >Download CV</a
+                >{{ $t('downloadResume') }}</a
               >
             </div>
           </div>
@@ -72,7 +77,7 @@
             :href="data.main.resumedownload"
             target="_blank"
             class="btn btn-style btn-primary"
-            >Download resume</a
+            >{{ $t('downloadResume') }}</a
           >
         </div>
       </div>
@@ -81,8 +86,10 @@
     <section class="w3l-services">
       <div class="blog py-1" id="services">
         <div class="container py-lg-5">
-          <h5 class="title-small text-center">Services</h5>
-          <h3 class="title-big text-center mb-sm-5 mb-4">What I do for you</h3>
+          <h5 class="title-small text-center">{{ $t('services') }}</h5>
+          <h3 class="title-big text-center mb-sm-5 mb-4">
+            {{ $t('whatIDo') }}
+          </h3>
           <div class="row">
             <div
               class="col-md-4 col-sm-12 col-xs-12"
@@ -111,77 +118,6 @@
         </div>
       </div>
     </section>
-    <!-- 
-    <section class="w3l-stats py-lg-5 py-4" id="stats">
-      <h5 class="title-small text-center">
-        some technologies I'm proficient in
-      </h5>
-      <div class="gallery-inner container py-md-5 py-4">
-        <div class="row stats-con">
-          <div class="col-sm-3 col-6 stats_info counter_grid">
-            <span class="fa fa-laptop"></span>
-            <p>{{ data.main.technologies.vue }}</p>
-            <h4>Vue</h4>
-          </div>
-          <div class="col-sm-3 col-6 stats_info counter_grid1">
-            <span class="fa fa-hourglass-end"></span>
-            <p>{{ data.main.technologies.nuxt }}</p>
-            <h4>Nuxt</h4>
-          </div>
-          <div class="col-sm-3 col-6 stats_info counter_grid mt-sm-0 mt-5">
-            <span class="fa fa-gift"></span>
-            <p>{{ data.main.technologies.axios }}</p>
-            <h4>Axios</h4>
-          </div>
-          <div class="col-sm-3 col-6 stats_info counter_grid2 mt-sm-0 mt-5">
-            <span class="fa fa-smile-o"></span>
-            <p>{{ data.main.technologies.javascript }}</p>
-            <h4>Javascript</h4>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="w3l-clients" id="clients">
-      <div class="cusrtomer-layout py-5">
-        <div class="container py-lg-5 py-md-4">
-          <div class="heading text-center mx-auto">
-            <h6 class="title-small text-center">Testimonials</h6>
-            <h3 class="title-big mb-md-5 mb-4">
-              What my clients think about Me
-            </h3>
-          </div>
-
-          <div class="testimonial-width">
-            <div class="row">
-              <div
-                class="col-md-6 col-sm-12 col-xs-12"
-                v-for="testimonial in data.testimonials.testimonials"
-                v-bind:key="testimonial"
-              >
-                <div class="item">
-                  <div class="testimonial-content">
-                    <div class="testimonial">
-                      <blockquote>
-                        <q>{{ testimonial.text }}</q>
-                      </blockquote>
-                      <div class="testi-des">
-                        <div class="peopl align-self">
-                          <h3>{{ testimonial.clientname }}</h3>
-                          <p class="indentity">
-                            {{ testimonial.clientaddress }}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
     <section class="w3l-index5" id="about">
       <div class="new-block py-1">
         <div class="container py-lg-5">
@@ -204,13 +140,17 @@
 
     <section class="w3l-grid-quote text-center py-5">
       <div class="container py-3">
-        <h6 class="title-small">Get in touch</h6>
-        <h3 class="title-big mb-md-5 mb-4">Let's start a Project!</h3>
-        <router-link to="/myself" class="btn btn-style btn-primary mr-2"
-          >More about me
+        <h6 class="title-small">{{ $t('getInTouch') }}</h6>
+        <h3 class="title-big mb-md-5 mb-4">{{ $t('letsStart') }}</h3>
+        <router-link
+          :to="localePath('/myself')"
+          class="btn btn-style btn-primary mr-2"
+          >{{ $t('moreAboutMe') }}
         </router-link>
-        <router-link to="/contact" class="btn btn-style btn-outline-primary"
-          >Get in touch</router-link
+        <router-link
+          :to="localePath('/contact')"
+          class="btn btn-style btn-outline-primary"
+          >{{ $t('getInTouch') }}</router-link
         >
       </div>
     </section>
@@ -223,7 +163,7 @@ export default {
   name: 'index',
   data() {
     return {
-      data: data
+      data: data[this.$i18n.localeProperties.code]
     };
   },
   head() {

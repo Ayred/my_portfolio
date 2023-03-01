@@ -1,226 +1,578 @@
 {
-  "main": {
-    "name": "Ayred Antara Caicedo Torres",
-    "shortname": "Ayred",
-    "occupation": "Developer / Programmer / Engineer",
-    "description": "Eat, sleep, code, repeat.",
-    "yearofexperience": "4+",
-    "age": "38",
-    "designation": "Computer Systems Engineer",
-    "image": "/images/photo.png",
-    "fullimage": "/images/myphoto1.jpg",
-    "graduationImage": "/images/graduation.jpg",
-    "bio": "Hi there! I have been very passionate about programming for the last few years. I dream of becoming an expert software engineer so that I can build professional and useful software that has business value. I am looking for a software engineering position in a reputable software company that can help me to achieve my goal.",
-    "contactmessage": "Get in touch with me to to build software!",
-    "email": "ayredantaract@gmail.com",
-    "phone": "+88 01862420119",
-    "mapaddress": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19463.765260500586!2d-117.0202301228747!3d32.51811117529691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94850e1e595e7%3A0xfe45fc99a0e0219!2sTijuana%20Cultural%20Center!5e0!3m2!1spt-BR!2smx!4v1667872266727!5m2!1spt-BR!2smx",
-    "address": {
-      "street": "",
-      "city": "Tijuana",
-      "state": "Baja California",
-      "zip": ""
-    },
-    "quotes1": {
-      "sectiontitle": "My resume",
-      "title": "I Would Love to make part of your Ideas",
-      "description": "I love frontend technologies but I'm also a backend and data enthusiast. I'm always studying to keep myself up to date with the best technologies for web development. You can download my resume in order to learn more about my professional life. Contact me and we will discuss your projects!"
-    },
-    "quotes2": {
-      "sectiontitle": "",
-      "title": "Hire me for your Awesome project!",
-      "description": "I would love to be part of your team and help you develop your projects. I am very passionate and enthusiastic, I love to learn all the time. I like challenges and problem solving. I am very committed and a good teammate. I can also speak English, Spanish and Portuguese."
-    },
-    "technologies": {
-      "vue": "100",
-      "nuxt": "20",
-      "axios": "15",
-      "javascript": "100"
-    },
-    "resumedownload": "https://drive.google.com/file/d/17a9zg7kv-kNOXV_UUC0Q5KhH36wMXjmK/view?usp=sharing",
-    "social": [
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/ayred/",
-        "className": "fa fa-linkedin"
+  "en": {
+    "main": {
+      "name": "Ayred Antara Caicedo Torres",
+      "shortname": "Ayred",
+      "occupation": "Developer / Programmer / Engineer",
+      "description": "Eat, sleep, code, repeat.",
+      "yearofexperience": "4+",
+      "age": "38",
+      "designation": "Computer Systems Engineer",
+      "image": "/images/photo.png",
+      "fullimage": "/images/myphoto1.jpg",
+      "graduationImage": "/images/graduation.jpg",
+      "bio": "Hi there! I have been very passionate about programming for the last few years. I dream of becoming an expert software engineer so that I can build professional and useful software that has business value. I am looking for a software engineering position in a reputable software company that can help me to achieve my goal.",
+      "contactmessage": "Get in touch with me to build software!",
+      "email": "ayredantaract@gmail.com",
+      "phone": "+88 01862420119",
+      "mapaddress": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19463.765260500586!2d-117.0202301228747!3d32.51811117529691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94850e1e595e7%3A0xfe45fc99a0e0219!2sTijuana%20Cultural%20Center!5e0!3m2!1spt-BR!2smx!4v1667872266727!5m2!1spt-BR!2smx",
+      "address": {
+        "street": "",
+        "city": "Tijuana",
+        "state": "Baja California",
+        "zip": ""
       },
+      "quotes1": {
+        "sectiontitle": "My resume",
+        "title": "I Would Love to make part of your Ideas",
+        "description": "I love frontend technologies but I'm also a backend and data enthusiast. I'm always studying to keep myself up to date with the best technologies for web development. You can download my resume in order to learn more about my professional life. Contact me and we will discuss your projects!"
+      },
+      "quotes2": {
+        "sectiontitle": "",
+        "title": "Hire me for your Awesome project!",
+        "description": "I would love to be part of your team and help you develop your projects. I am very passionate and enthusiastic, I love to learn all the time. I like challenges and problem solving. I am very committed and a good teammate. I can also speak English, Spanish and Portuguese."
+      },
+      "technologies": {
+        "vue": "100",
+        "nuxt": "20",
+        "axios": "15",
+        "javascript": "100"
+      },
+      "resumedownload": "https://drive.google.com/file/d/17a9zg7kv-kNOXV_UUC0Q5KhH36wMXjmK/view?usp=sharing",
+      "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ayred/",
+          "className": "fa fa-linkedin"
+        },
 
-      {
-        "name": "github",
-        "url": "https://github.com/Ayred",
-        "className": "fa fa-github"
-      }
-    ]
+        {
+          "name": "github",
+          "url": "https://github.com/Ayred",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "My Programming Languages and technologies Proficiency",
+      "education": [
+        {
+          "school": "UTEL University",
+          "degree": "Engineer's Degree, Computer Systems Engineering",
+          "graduated": "August 2019",
+          "description": "Graduated with First Class Honours"
+        }
+      ],
+      "work": [
+        {
+          "company": "iLab",
+          "title": "Software Developer",
+          "years": "Jun 2020 - Present",
+          "description": "Developing some userfriendly and best software."
+        }
+      ],
+      "certifications": [
+        {
+          "organization": "SENA",
+          "certificatename": "Python Fundamentals",
+          "url": "https://drive.google.com/file/d/126f2oiVhigKK2-5UX2Zf7w2w0yr7wUIi/view"
+        },
+        {
+          "organization": "SENA",
+          "certificatename": "Computer Architecture",
+          "url": "https://drive.google.com/file/d/1Cbk-_kOmJEsKRFMJRbCiE2HNM2cds3uR/view"
+        },
+        {
+          "organization": "Curso em Vídeo",
+          "certificatename": "JavaScript",
+          "url": "https://drive.google.com/file/d/1C8-trC6C-S8bIu0L-lfmzRKuXgh0Zzvo/view"
+        },
+        {
+          "organization": "Agoralíngua",
+          "certificatename": "Portuguese C2",
+          "url": "https://drive.google.com/file/d/1BgZPnAQ7C3T5zIMNzcUQzJCHeuAtG1VV/view"
+        },
+        {
+          "organization": "Microsoft",
+          "certificatename": "DP-900: Azure Data Fundamentals",
+          "url": "https://www.credly.com/badges/b8286427-49e2-4bb3-a0da-2f5bc4ae7705/linked_in_profile"
+        },
+        {
+          "organization": "Microsoft",
+          "certificatename": "AZ-900: Azure Fundamentals",
+          "url": "https://www.credly.com/badges/10c106b0-5f72-40e7-871a-cb3fbc58adfb/linked_in_profile"
+        },
+        {
+          "organization": "Microsoft",
+          "certificatename": "PL-300: Power BI Data Analyst Associate",
+          "url": "https://www.credly.com/badges/ee6360ee-f283-4104-9fb9-261f56b07216/linked_in_profile"
+        }
+      ],
+      "skillssectiontitle": "Motivated by the Desire to achieve Success",
+      "skillssectiondescription": "I began in tech working with WordPress 4+ years ago. Also using HTML, CSS and JavaScript. Two years ago I started to evolve in my career using JavaScript frameworks as Vue.js. This portfolio is built on Vue and Nuxt. I also had the opportunity to be part of an application development team using React Native and Firebase. I am interested in continuing to develop my skills and participate in projects that help me grow more and more in my career.",
+      "skills": [
+        {
+          "name": "MySQL",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Vue",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Nuxt",
+          "level": "Intermediate"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Intermediate"
+        },
+        {
+          "name": "API integration",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Axios",
+          "level": "Intermediate"
+        },
+        {
+          "name": "HTML, CSS",
+          "level": "Intermediate"
+        },
+        {
+          "name": "React Native",
+          "level": "Basic"
+        },
+        {
+          "name": "Php",
+          "level": "Basic"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "no": "01",
+          "title": "Computer system for microbiology",
+          "description": "My biggest project until now. I have had the opportunity of building a Microbiology Laboratory System. I built this project from software requirements analysis to implementation. I used MySQL, Vue.js, Nuxt.js and Vuetify technologies. The app is solving old traceability problems they had in the microbiology area for the ISO standards requirements in there records.",
+          "url": "https://docs.google.com/presentation/d/1WvkA1JkRcbfs5dv8uc_lV1d8ewLhZyaC/edit?usp=sharing&ouid=103664415731488555926&rtpof=true&sd=true"
+        },
+        {
+          "no": "02",
+          "title": "iLab",
+          "description": "iLab is a Laboratory Information System (LIS). This is a huge platform, a system that processes, stores and manages data from all stages of medical processes and biochemical tests. In this project I have been working as part of the frontend development team, performing responsiveness and styling tasks as well as implementing new features. I also fix bugs and do code maintenance here. I use Vue 3 in this project.",
+          "url": "http://ilab.code-ware.com/login"
+        },
+        {
+          "no": "03",
+          "title": "Arkusfit",
+          "description": "This project was developed during a bootcamp where I was part of the mobile dev team. The application tracks records of exercise and food. In this project I had the opportunity to work with React Native, Firebase and Flexblox Technologies. I had the pleasure of building the user profile, cards with a reminder to drink water that appeared or not depending on the time, and I also made an internal health news page with a carousel of images.",
+          "url": "https://docs.google.com/presentation/d/1hk7i3yuRp94ZrisplKkOC176WAmwYNKdJZaEJOOT974/edit?usp=sharing"
+        }
+      ]
+    },
+    "services": {
+      "services": [
+        {
+          "no": "01",
+          "title": "Web Development",
+          "description": "I can help you to build apps and interactive websites. I love working with creative people. Also, I can be proactive when it is required. I have excellent communication skills to understand clearly the goals of the business."
+        },
+        {
+          "no": "02",
+          "title": "Software Development",
+          "description": "I can be a good team player participating in the creation of complex applications and programs. I can help you to create, conceptualize, program, document, test, and upgrade software and their components."
+        },
+        {
+          "no": "03",
+          "title": "API Integration",
+          "description": "I can help you with the connection between two or more applications, via their APIs, for letting those systems exchange data. I have some experience using axios and integrating features that keep data in sync."
+        }
+      ]
+    }
   },
-  "resume": {
-    "skillmessage": "My Programming Language Proficiency",
-    "education": [
-      {
-        "school": "UTEL University",
-        "degree": "Engineer's Degree, Computer Systems Engineering",
-        "graduated": "August 2019",
-        "description": "Graduated with First Class Honours"
-      }
-    ],
-    "work": [
-      {
-        "company": "iLab",
-        "title": "Software Developer",
-        "years": "Jun 2020 - Present",
-        "description": "Developing some userfriendly and best software."
-      }
-    ],
-    "certifications": [
-      {
-        "organization": "SENA",
-        "certificatename": "Python Fundamentals",
-        "url": "https://drive.google.com/file/d/126f2oiVhigKK2-5UX2Zf7w2w0yr7wUIi/view"
+  "es": {
+    "main": {
+      "name": "Ayred Antara Caicedo Torres",
+      "shortname": "Ayred",
+      "occupation": "Desarrolladora / Programadora / Ingeniera",
+      "description": "Eat, sleep, code, repeat.",
+      "yearofexperience": "más de 4",
+      "age": "38",
+      "designation": "Ingeniera en Sistemas Computacionales",
+      "image": "/images/photo.png",
+      "fullimage": "/images/myphoto1.jpg",
+      "graduationImage": "/images/graduation.jpg",
+      "bio": "¡Hola! Soy y he sido una persona apasionada por la programación durante los últimos años. Sueño con convertirme en una ingeniera de software experta para poder crear software profesional y útil que tenga valor comercial. Estoy buscando un puesto de software developer en una empresa de software de confianza que pueda ayudarme a lograr mi objetivo.",
+      "contactmessage": "¡Ponte en contacto conmigo para crear software!",
+      "email": "ayredantaract@gmail.com",
+      "phone": "+88 01862420119",
+      "mapaddress": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19463.765260500586!2d-117.0202301228747!3d32.51811117529691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94850e1e595e7%3A0xfe45fc99a0e0219!2sTijuana%20Cultural%20Center!5e0!3m2!1spt-BR!2smx!4v1667872266727!5m2!1spt-BR!2smx",
+      "address": {
+        "street": "",
+        "city": "Tijuana",
+        "state": "Baja California",
+        "zip": ""
       },
-      {
-        "organization": "SENA",
-        "certificatename": "Computer Architecture",
-        "url": "https://drive.google.com/file/d/1Cbk-_kOmJEsKRFMJRbCiE2HNM2cds3uR/view"
+      "quotes1": {
+        "sectiontitle": "Mi vida profesional",
+        "title": "Me encantaría hacer parte de tus ideas",
+        "description": "Me apasionan las tecnologías frontend, pero también soy una entusiasta de backend y datos. Siempre estoy estudiando para mantenerme al día con las mejores tecnologías para el desarrollo web. Puedes descargar mi currículum para conocer más sobre mi vida profesional. ¡Contáctame y hablaremos de tus proyectos!"
       },
-      {
-        "organization": "Curso em Vídeo",
-        "certificatename": "JavaScript",
-        "url": "https://drive.google.com/file/d/1C8-trC6C-S8bIu0L-lfmzRKuXgh0Zzvo/view"
+      "quotes2": {
+        "sectiontitle": "",
+        "title": "¡Contrátame para tu increible proyecto!",
+        "description": "Me encantaría formar parte de tu equipo y ayudarte a desarrollar tus proyectos. Soy muy apasionada y entusiasta, me encanta aprender todo el tiempo. Me gustan los retos y la resolución de problemas. Soy muy comprometida y buena compañera. También sé hablar inglés, español y portugués."
       },
-      {
-        "organization": "Agoralíngua",
-        "certificatename": "Portuguese C2",
-        "url": "https://drive.google.com/file/d/1BgZPnAQ7C3T5zIMNzcUQzJCHeuAtG1VV/view"
+      "technologies": {
+        "vue": "100",
+        "nuxt": "20",
+        "axios": "15",
+        "javascript": "100"
       },
-      {
-        "organization": "Microsoft",
-        "certificatename": "DP-900: Azure Data Fundamentals",
-        "url": "https://www.credly.com/badges/b8286427-49e2-4bb3-a0da-2f5bc4ae7705/linked_in_profile"
-      },
-      {
-        "organization": "Microsoft",
-        "certificatename": "AZ-900: Azure Fundamentals",
-        "url": "https://www.credly.com/badges/10c106b0-5f72-40e7-871a-cb3fbc58adfb/linked_in_profile"
-      },
-      {
-        "organization": "Microsoft",
-        "certificatename": "PL-300: Power BI Data Analyst Associate",
-        "url": "https://www.credly.com/badges/ee6360ee-f283-4104-9fb9-261f56b07216/linked_in_profile"
-      }
-    ],
-    "skillssectiontitle": "Motivated by the Desire to achieve Success",
-    "skillssectiondescription": "I began in tech working with WordPress 4+ years ago. Also using HTML, CSS and JavaScript. Two years ago I started to evolve in my career using JavaScript frameworks as Vue.js. This portfolio is built on Vue and Nuxt. I also had the opportunity to be part of an application development team using React Native and Firebase. I am interested in continuing to develop my skills and participate in projects that help me grow more and more in my career.",
-    "skills": [
-      {
-        "name": "MySQL",
-        "level": "Intermediate"
-      },
-      {
-        "name": "Vue",
-        "level": "Intermediate"
-      },
-      {
-        "name": "Nuxt",
-        "level": "Intermediate"
-      },
-      {
-        "name": "JavaScript",
-        "level": "Intermediate"
-      },
-      {
-        "name": "API integration",
-        "level": "Intermediate"
-      },
-      {
-        "name": "Axios",
-        "level": "Intermediate"
-      },
-      {
-        "name": "HTML, CSS",
-        "level": "Intermediate"
-      },
-      {
-        "name": "React Native",
-        "level": "Basic"
-      },
-      {
-        "name": "Php",
-        "level": "Basic"
-      }
-    ]
+      "resumedownload": "https://drive.google.com/file/d/17a9zg7kv-kNOXV_UUC0Q5KhH36wMXjmK/view?usp=sharing",
+      "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ayred/",
+          "className": "fa fa-linkedin"
+        },
+
+        {
+          "name": "github",
+          "url": "https://github.com/Ayred",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "Mi proeficiencia en lenguajes y tecnologías",
+      "education": [
+        {
+          "school": "UTEL University",
+          "degree": "Titulo de Ingeniería en Sistemas Computacionales",
+          "graduated": "Agosto 2019",
+          "description": "Graduada con honores"
+        }
+      ],
+      "work": [
+        {
+          "company": "iLab",
+          "title": "Software Developer",
+          "years": "Jun 2020 - Present",
+          "description": "Desarrollo de software y realización de tareas de frontend."
+        }
+      ],
+      "certifications": [
+        {
+          "organization": "SENA",
+          "certificatename": "Estructuras de control en Python",
+          "url": "https://drive.google.com/file/d/126f2oiVhigKK2-5UX2Zf7w2w0yr7wUIi/view"
+        },
+        {
+          "organization": "SENA",
+          "certificatename": "Arquitectura de Computadores",
+          "url": "https://drive.google.com/file/d/1Cbk-_kOmJEsKRFMJRbCiE2HNM2cds3uR/view"
+        },
+        {
+          "organization": "Curso em Vídeo",
+          "certificatename": "JavaScript",
+          "url": "https://drive.google.com/file/d/1C8-trC6C-S8bIu0L-lfmzRKuXgh0Zzvo/view"
+        },
+        {
+          "organization": "Agoralíngua",
+          "certificatename": "Portugués C2",
+          "url": "https://drive.google.com/file/d/1BgZPnAQ7C3T5zIMNzcUQzJCHeuAtG1VV/view"
+        },
+        {
+          "organization": "Microsoft",
+          "certificatename": "DP-900: Azure Data Fundamentals",
+          "url": "https://www.credly.com/badges/b8286427-49e2-4bb3-a0da-2f5bc4ae7705/linked_in_profile"
+        },
+        {
+          "organization": "Microsoft",
+          "certificatename": "AZ-900: Azure Fundamentals",
+          "url": "https://www.credly.com/badges/10c106b0-5f72-40e7-871a-cb3fbc58adfb/linked_in_profile"
+        },
+        {
+          "organization": "Microsoft",
+          "certificatename": "PL-300: Power BI Data Analyst Associate",
+          "url": "https://www.credly.com/badges/ee6360ee-f283-4104-9fb9-261f56b07216/linked_in_profile"
+        }
+      ],
+      "skillssectiontitle": "Motivada por el deseo de alcanzar el éxito",
+      "skillssectiondescription": "Inicié en este mundo de la tecnología trabajando con WordPress hace más de 4 años. También estaba usando HTML, CSS y JavaScript. Hace poco más de dos años comencé a evolucionar en mi carrera usando frameworks JavaScript como Vue.js. Este portfolio está construido en Vue y Nuxt. También tuve la oportunidad de formar parte de un equipo de desarrollo de aplicaciones utilizando React Native y Firebase. Me interesa seguir desarrollando mis habilidades y participar en proyectos que me ayuden a crecer cada vez más profesionalmente.",
+      "skills": [
+        {
+          "name": "MySQL",
+          "level": "Intermedio"
+        },
+        {
+          "name": "Vue",
+          "level": "Intermedio"
+        },
+        {
+          "name": "Nuxt",
+          "level": "Intermedio"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Intermedio"
+        },
+        {
+          "name": "API integration",
+          "level": "Intermedio"
+        },
+        {
+          "name": "Axios",
+          "level": "Intermedio"
+        },
+        {
+          "name": "HTML, CSS",
+          "level": "Intermedio"
+        },
+        {
+          "name": "React Native",
+          "level": "Básico"
+        },
+        {
+          "name": "Php",
+          "level": "Básico"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "no": "01",
+          "title": "Sistema Informático para microbiología",
+          "description": "Mi más grande proyecto hasta ahora. Tuve la oportunidad de construir un Sistema de Laboratorio para Microbiología Sanitaria. Desarrollé este proyecto de inicio a fin, empezando por el análisis de requisitos de software hasta la implementación del sistema. Usé las tecnologías MySQL, Vue.js, Nuxt.js y Vuetify. La aplicación está resolviendo viejos problemas de trazabilidad que tenían en el área de microbiología para los requisitos de las normas ISO en sus registros.",
+          "url": "https://docs.google.com/presentation/d/1WvkA1JkRcbfs5dv8uc_lV1d8ewLhZyaC/edit?usp=sharing&ouid=103664415731488555926&rtpof=true&sd=true"
+        },
+        {
+          "no": "02",
+          "title": "iLab",
+          "description": "iLab es un Sistema Informático de Laboratorio (SIL). Es una plataforma enorme, es un sistema que procesa, almacena y gestiona datos de todas las etapas de procesos médicos y pruebas bioquímicas. En este proyecto he estado trabajando como parte del equipo de desarrollo frontend, realizando tareas de responsive y styling, así como implementando nuevas funcionalidades. También corrijo errores y realizo el mantenimiento del código. Uso Vue 3 en este proyecto.",
+          "url": "http://ilab.code-ware.com/login"
+        },
+        {
+          "no": "03",
+          "title": "Arkusfit",
+          "description": "Este proyecto fue desarrollado durante un bootcamp donde formé parte del equipo de desarrollo móvil. La aplicación realiza un seguimiento de los registros de ejercicio y alimentación. En este proyecto tuve la oportunidad de trabajar con tecnologías como React Native, Firebase y Flexblox. Tuve el placer de armar el perfil de usuario, tarjetas con un recordatorio para beber agua que aparecían o no según la hora, y también hice una página interna de notícias de salud con un carrusel de imágenes.",
+          "url": "https://docs.google.com/presentation/d/1hk7i3yuRp94ZrisplKkOC176WAmwYNKdJZaEJOOT974/edit?usp=sharing"
+        }
+      ]
+    },
+    "services": {
+      "services": [
+        {
+          "no": "01",
+          "title": "Desarrollo Web",
+          "description": "Puedo ayudarte a crear aplicaciones y sitios web interactivos. Me encanta trabajar con gente creativa. Además, puedo ser proactiva cuando se requiere. Tengo excelentes habilidades de comunicación para entender claramente los objetivos del negocio."
+        },
+        {
+          "no": "02",
+          "title": "Software Development",
+          "description": "Me gusta trabajar en equipo. Soy buena relacionándome en grupo, participando en la creación de aplicaciones y programas complejos. Puedo ayudarte a crear, conceptualizar, programar, documentar, probar y actualizar el software y sus componentes."
+        },
+        {
+          "no": "03",
+          "title": "API Integration",
+          "description": "Tengo experiencia trabajando con integraciones entre dos o más aplicaciones o servicios, a través de sus APIs, para permitir que esos sistemas intercambien datos. Tengo experiencia en el uso de axios y en la integración de funciones que mantienen los datos sincronizados."
+        }
+      ]
+    }
   },
-  "portfolio": {
-    "projects": [
-      {
-        "no": "01",
-        "title": "Computer system for microbiology",
-        "description": "My biggest project until now. I have had the opportunity of building a Microbiology Laboratory System. I built this project from software requirements analysis to implementation. I used MySQL, Vue.js, Nuxt.js and Vuetify technologies. The app is solving old traceability problems they had in the microbiology area for the ISO standards requirements in there records.",
-        "url": "https://docs.google.com/presentation/d/1WvkA1JkRcbfs5dv8uc_lV1d8ewLhZyaC/edit?usp=sharing&ouid=103664415731488555926&rtpof=true&sd=true"
+  "pt": {
+    "main": {
+      "name": "Ayred Antara Caicedo Torres",
+      "shortname": "Ayred",
+      "occupation": "Desenvolvedora / Programadora / Engenheira",
+      "description": "Eat, sleep, code, repeat.",
+      "yearofexperience": "mais de 4",
+      "age": "38",
+      "designation": "Engenheira em sistemas computacionais",
+      "image": "/images/photo.png",
+      "fullimage": "/images/myphoto1.jpg",
+      "graduationImage": "/images/graduation.jpg",
+      "bio": "Olá! Sou e tenho sido uma pessoa apaixonada pela programação nos últimos anos. Sonho com me tornar uma engenheira de software com muita expriência para poder criar software profissional e útil que tenha valor comercial. Estou procurando uma posição de desenvolvedora numa empresa de software confiável que possa me ajudar a atingir meu objetivo.",
+      "contactmessage": "Entre em contato comigo para construir software!",
+      "email": "ayredantaract@gmail.com",
+      "phone": "+88 01862420119",
+      "mapaddress": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19463.765260500586!2d-117.0202301228747!3d32.51811117529691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94850e1e595e7%3A0xfe45fc99a0e0219!2sTijuana%20Cultural%20Center!5e0!3m2!1spt-BR!2smx!4v1667872266727!5m2!1spt-BR!2smx",
+      "address": {
+        "street": "",
+        "city": "Tijuana",
+        "state": "Baja California",
+        "zip": ""
       },
-      {
-        "no": "02",
-        "title": "iLab",
-        "description": "iLab is a Laboratory Information System (LIS). This is a huge platform, a system that processes, stores and manages data from all stages of medical processes and biochemical tests. In this project I have been working as part of the frontend development team, performing responsiveness and styling tasks as well as implementing new features. I also fix bugs and do code maintenance here. I use Vue 3 in this project.",
-        "url": "http://ilab.code-ware.com/login"
+      "quotes1": {
+        "sectiontitle": "Minha experiência",
+        "title": "Eu adoraria fazer parte das suas ideias!",
+        "description": "Adoro tecnologias de front-end, mas também sou uma entusiasta de back-end e dados. Estou sempre estudando para me manter atualizada com as melhores tecnologias para desenvolvimento web. Você pode baixar meu currículo para saber mais sobre minha vida profissional. Entre em contato comigo e conversaremos sobre seus projetos!"
       },
-      {
-        "no": "03",
-        "title": "Arkusfit",
-        "description": "This project was developed during a bootcamp where I was part of the mobile dev team. The application tracks records of exercise and food. In this project I had the opportunity to work with React Native, Firebase and Flexblox Technologies. I had the pleasure of building the user profile, cards with a reminder to drink water that appeared or not depending on the time, and I also made an internal health news page with a carousel of images.",
-        "url": "https://docs.google.com/presentation/d/1hk7i3yuRp94ZrisplKkOC176WAmwYNKdJZaEJOOT974/edit?usp=sharing"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!.",
-        "clientname": "John wilson",
-        "clientaddress": "Seattle, Washington"
+      "quotes2": {
+        "sectiontitle": "",
+        "title": "Contrate-me para o seu projeto Incrível!",
+        "description": "Eu adoraria fazer parte de sua equipe e ajudá-lo a desenvolver seus projetos. Sou muito apaixonada e entusiasmada, adoro aprender o tempo todo. Gosto de desafios e resolução de problemas. Sou muito comprometida e boa colega de equipe. Também falo inglês, espanhol e português."
       },
-      {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora. Dolores molestias adipisci dolor sit amet!.",
-        "clientname": "David haris",
-        "clientaddress": "London, England"
-      }
-    ]
-  },
-  "services": {
-    "services": [
-      {
-        "no": "01",
-        "title": "Web Development",
-        "description": "I can help you to build apps and interactive websites. I love working with creative people. Also, I can be proactive when it is required. I have excellent communication skills to understand clearly the goals of the business."
+      "technologies": {
+        "vue": "100",
+        "nuxt": "20",
+        "axios": "15",
+        "javascript": "100"
       },
-      {
-        "no": "02",
-        "title": "Software Development",
-        "description": "I can be a good team player participating in the creation of complex applications and programs. I can help you to create, conceptualize, program, document, test, and upgrade software and their components."
-      },
-      {
-        "no": "03",
-        "title": "API Integration",
-        "description": "I can help you with the connection between two or more applications, via their APIs, for letting those systems exchange data. I have some experience using axios and integrating features that keep data in sync."
-      }
-    ]
-  },
-  "awwards": {
-    "awwards": [
-      {
-        "title": "Website of the day",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis labore quisquam suscipit qui veritatis. voluptas quia officiis fugit soluta sunt"
-      },
-      {
-        "title": "Awards Site Of The Day",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis labore quisquam suscipit qui veritatis. voluptas quia officiis fugit soluta sunt"
-      },
-      {
-        "title": "Honorable mention award",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis labore quisquam suscipit qui veritatis. voluptas quia officiis fugit soluta sunt"
-      },
-      {
-        "title": "Designer of the Company",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi reiciendis labore quisquam suscipit qui veritatis. voluptas quia officiis fugit soluta sunt"
-      }
-    ]
+      "resumedownload": "https://drive.google.com/file/d/17a9zg7kv-kNOXV_UUC0Q5KhH36wMXjmK/view?usp=sharing",
+      "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ayred/",
+          "className": "fa fa-linkedin"
+        },
+
+        {
+          "name": "github",
+          "url": "https://github.com/Ayred",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "Minha proficiência em idiomas e tecnologias",
+      "education": [
+        {
+          "school": "UTEL University",
+          "degree": "Engenheira em Sistemas Computacionais",
+          "graduated": "Agosto 2019",
+          "description": "Formada com honras"
+        }
+      ],
+      "work": [
+        {
+          "company": "iLab",
+          "title": "Software Developer",
+          "years": "Jun 2020 - Present",
+          "description": "Desenvolvimento de software e tarefas de front-end."
+        }
+      ],
+      "certifications": [
+        {
+          "organization": "SENA",
+          "certificatename": "Estructuras de controle com Python",
+          "url": "https://drive.google.com/file/d/126f2oiVhigKK2-5UX2Zf7w2w0yr7wUIi/view"
+        },
+        {
+          "organization": "SENA",
+          "certificatename": "Arquitetura de Computadores",
+          "url": "https://drive.google.com/file/d/1Cbk-_kOmJEsKRFMJRbCiE2HNM2cds3uR/view"
+        },
+        {
+          "organization": "Curso em Vídeo",
+          "certificatename": "JavaScript",
+          "url": "https://drive.google.com/file/d/1C8-trC6C-S8bIu0L-lfmzRKuXgh0Zzvo/view"
+        },
+        {
+          "organization": "Agoralíngua",
+          "certificatename": "Portugués C2",
+          "url": "https://drive.google.com/file/d/1BgZPnAQ7C3T5zIMNzcUQzJCHeuAtG1VV/view"
+        },
+        {
+          "organization": "Microsoft",
+          "certificatename": "DP-900: Azure Data Fundamentals",
+          "url": "https://www.credly.com/badges/b8286427-49e2-4bb3-a0da-2f5bc4ae7705/linked_in_profile"
+        },
+        {
+          "organization": "Microsoft",
+          "certificatename": "AZ-900: Azure Fundamentals",
+          "url": "https://www.credly.com/badges/10c106b0-5f72-40e7-871a-cb3fbc58adfb/linked_in_profile"
+        },
+        {
+          "organization": "Microsoft",
+          "certificatename": "PL-300: Power BI Data Analyst Associate",
+          "url": "https://www.credly.com/badges/ee6360ee-f283-4104-9fb9-261f56b07216/linked_in_profile"
+        }
+      ],
+      "skillssectiontitle": "Motivada pelo desejo de conseguir o sucesso",
+      "skillssectiondescription": "Comecei neste mundo da tecnologia trabalhando com o WordPress há mais de 4 anos. Eu também estava usando HTML, CSS e JavaScript. Há pouco mais de dois anos comecei evoluir minha carreira utilizando frameworks do JavaScript como Vue.js. Este portfólio é construído em Vue e Nuxt. Também tive a oportunidade de fazer parte duma equipe de desenvolvimento de aplicativos usando React Native e Firebase. Tenho interesse em continuar desenvolvendo minhas habilidades e participar de projetos que me ajudem a crescer cada vez mais profissionalmente.",
+      "skills": [
+        {
+          "name": "MySQL",
+          "level": "Médio"
+        },
+        {
+          "name": "Vue",
+          "level": "Médio"
+        },
+        {
+          "name": "Nuxt",
+          "level": "Médio"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Médio"
+        },
+        {
+          "name": "API integration",
+          "level": "Médio"
+        },
+        {
+          "name": "Axios",
+          "level": "Médio"
+        },
+        {
+          "name": "HTML, CSS",
+          "level": "Médio"
+        },
+        {
+          "name": "React Native",
+          "level": "Básico"
+        },
+        {
+          "name": "Php",
+          "level": "Básico"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "no": "01",
+          "title": "Sistema Informático para microbiologia",
+          "description": "Meu maior projeto até agora. Tive a oportunidade de construir um Sistema Laboratorial de Microbiologia Sanitária. Desenvolvi este projeto do início ao fim, desde a análise de requisitos de software até a implementação do sistema. Usei as tecnologias MySQL, Vue.js, Nuxt.js e Vuetify. O aplicativo está resolvendo antigos problemas de rastreabilidade que eles tinham na área de microbiologia para as exigências das normas ISO em seus registros.",
+          "url": "https://docs.google.com/presentation/d/1WvkA1JkRcbfs5dv8uc_lV1d8ewLhZyaC/edit?usp=sharing&ouid=103664415731488555926&rtpof=true&sd=true"
+        },
+        {
+          "no": "02",
+          "title": "iLab",
+          "description": "iLab é um Sistema Informático Laboratorial (SIL). É uma plataforma enorme, é um sistema que processa, armazena e gerencia dados de todas as etapas de processos médicos e exames bioquímicos. Neste projeto tenho trabalhado como parte da equipe de desenvolvimento frontend, realizando tarefas responsivas e de estilo, bem como implementando novas funcionalidades. Também corrijo bugs e faço manutenção de código. Eu uso o Vue 3 neste projeto.",
+          "url": "http://ilab.code-ware.com/login"
+        },
+        {
+          "no": "03",
+          "title": "Arkusfit",
+          "description": "Este projeto foi desenvolvido durante um bootcamp onde fiz parte da equipe de desenvolvimento mobile. O aplicativo acompanha os registros de exercícios e alimentação. Neste projeto tive a oportunidade de trabalhar com tecnologias como React Native, Firebase e Flexblox. Tive o prazer de montar o perfil do usuário, cartões com lembrete para beber água que apareciam ou não dependendo do horário, e também fiz uma página interna de notícias de saúde com um carrossel de imagens.",
+          "url": "https://docs.google.com/presentation/d/1hk7i3yuRp94ZrisplKkOC176WAmwYNKdJZaEJOOT974/edit?usp=sharing"
+        }
+      ]
+    },
+    "services": {
+      "services": [
+        {
+          "no": "01",
+          "title": "Desenvolvimento Web",
+          "description": "Posso ajudá-lo a criar sites e aplicativos interativos. Adoro trabalhar com pessoas criativas. Além disso, posso ser proativo quando necessário. Tenho excelentes habilidades de comunicação para entender com claridade os objetivos do negócio."
+        },
+        {
+          "no": "02",
+          "title": "Desenvolvimento de Software",
+          "description": "Gosto muito de trabalhar em equipe. Sou boa interagindo em grupo, participando da criação de aplicativos e programas complexos. Posso ajudá-lo a criar, conceituar, programar, documentar, testar e atualizar software e seus componentes."
+        },
+        {
+          "no": "03",
+          "title": "Integração de APIs",
+          "description": "Tenho experiência em trabalhar com integrações entre duas ou mais aplicações ou serviços, através de suas APIs, para permitir a troca de dados entre deferentes sistemas e serviços. Tenho experiência no uso de axios e na integração de recursos que mantêm os dados sincronizados."
+        }
+      ]
+    }
   }
 }
