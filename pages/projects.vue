@@ -3,12 +3,14 @@
     <section class="w3l-about-breadcrumb text-center">
       <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
         <div class="container py-2">
-          <h2 class="title">My Projects</h2>
+          <h2 class="title">{{ $t('myProjects') }}</h2>
           <ul class="breadcrumbs-custom-path mt-2">
-            <li><router-link to="/">Home</router-link></li>
+            <li>
+              <router-link to="/">{{ $t('home') }}</router-link>
+            </li>
             <li class="active">
               <span class="fa fa-arrow-right mx-2" aria-hidden="true"></span>
-              Projects
+              {{ $t('projects') }}
             </li>
           </ul>
         </div>
@@ -18,10 +20,9 @@
     <section class="w3l-services">
       <div class="blog py-5" id="services">
         <div class="container py-lg-5">
-          <h5 class="title-small text-center">Projects list</h5>
+          <h5 class="title-small text-center">{{ $t('projectsList') }}</h5>
           <h3 class="title-big text-center mb-sm-5 mb-4">
-            I have done some projects as an independent developer and also as a
-            team player.
+            {{ $t('teamOrSolo') }}
           </h3>
           <div class="row">
             <div
@@ -60,7 +61,7 @@
       </div>
       <div class="img-one content-mid">
         <center>
-          <h3 class="title-big">Email me right now</h3>
+          <h3 class="title-big">{{ $t('emailMeRightNow') }}</h3>
           <br />
           <a
             target="_blank"
@@ -83,7 +84,7 @@ export default {
   name: 'index',
   data() {
     return {
-      data: data
+      data: data[this.$i18n.localeProperties.code]
     };
   },
   head() {

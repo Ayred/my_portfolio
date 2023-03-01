@@ -23,30 +23,52 @@
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item" :class="{ active: isCurrentRoute('/') }">
-                <nuxt-link to="/" class="nav-link"
-                  >Home <span class="sr-only">(current)</span></nuxt-link
+              <li
+                class="nav-item"
+                :class="{ active: isCurrentRoute(localePath('/')) }"
+              >
+                <nuxt-link :to="localePath('/')" class="nav-link"
+                  >{{ $t('welcome') }}
+                  <span class="sr-only">(current)</span></nuxt-link
                 >
               </li>
               <li
                 class="nav-item"
-                :class="{ active: isCurrentRoute('/myself') }"
+                :class="{ active: isCurrentRoute(localePath('/myself')) }"
               >
-                <nuxt-link to="/myself" class="nav-link">About</nuxt-link>
+                <nuxt-link :to="localePath('/myself')" class="nav-link">{{
+                  $t('aboutMe')
+                }}</nuxt-link>
               </li>
               <li
                 class="nav-item"
-                :class="{ active: isCurrentRoute('/projects') }"
+                :class="{ active: isCurrentRoute(localePath('/projects')) }"
               >
-                <nuxt-link to="/projects" class="nav-link">Projects</nuxt-link>
+                <nuxt-link :to="localePath('/projects')" class="nav-link">{{
+                  $t('projects')
+                }}</nuxt-link>
               </li>
               <li
                 class="nav-item"
-                :class="{ active: isCurrentRoute('/contact') }"
+                :class="{ active: isCurrentRoute(localePath('/contact')) }"
               >
-                <nuxt-link to="/contact" class="nav-link">Contact</nuxt-link>
+                <nuxt-link :to="localePath('/contact')" class="nav-link">{{
+                  $t('contact')
+                }}</nuxt-link>
               </li>
             </ul>
+          </div>
+
+          <div class="col-sm-12 col-md-2 text-center">
+            <nuxt-link :to="switchLocalePath('en')"
+              ><country-flag country="us" />&nbsp;
+            </nuxt-link>
+            <nuxt-link :to="switchLocalePath('es')"
+              ><country-flag country="mx" />&nbsp;
+            </nuxt-link>
+            <nuxt-link :to="switchLocalePath('pt')"
+              ><country-flag country="br" />&nbsp;
+            </nuxt-link>
           </div>
 
           <div class="mobile-position">
@@ -74,7 +96,7 @@
           <div class="row">
             <div class="col-lg-8 footer-left">
               <p class="m-0">
-                {{ data.main.shortname }} © Copyright 2022. Developed by
+                {{ data.main.shortname }}{{ $t('copyright') }}
                 <a href="http://tatatato.com/" target="_blank">TATATATO </a>
               </p>
             </div>
@@ -104,11 +126,15 @@
 </template>
 <script>
 import data from '~/static/api/data.json';
+import CountryFlag from 'vue-country-flag';
 export default {
+  components: {
+    CountryFlag
+  },
   name: 'index',
   data() {
     return {
-      data: data
+      data: data[this.$i18n.localeProperties.code]
     };
   },
   watch: {
